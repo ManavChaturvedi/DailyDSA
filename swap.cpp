@@ -1,8 +1,8 @@
-// #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 
-// using namespace std;
+using namespace std;
 
-//  SWAPPING VIA POINTERS
+ //SWAPPING VIA POINTERS
 
 // int swap(int *x, int *y){
 //     int temp;
@@ -20,19 +20,19 @@
 // }
 
 
-//  SWAPPING VIA REFERENCE
+ //SWAPPING VIA REFERENCE
 
-// int swap(int &x, int &y){
-//     int temp;
-//     temp = x;
-//     x=y;
-//     y=temp;
-// }
+int swap(int &x, int &y){
+    int temp;
+    temp = x;
+    x=y;
+    y=temp;
+}
 
-// int main(){
-//     int a,b;
-//     cin>>a>>b;
-//     swap(a,b);;
-//     cout<<a<<" "<<b;
-//     return 0;
-// }
+int main(){
+    int a,b;
+    cin>>a>>b;
+    swap(a,b);;
+    cout<<a<<" "<<b;
+    return 0;
+}
